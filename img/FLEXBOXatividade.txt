@@ -1,0 +1,47 @@
+Exercicío 1: 
+Quando ativamos o display:flex podemos observar que as palavras se encaixaram na mesma linha em vez de ficarem separadas e fez com que o flexbox consiga ser usado
+
+Exercicío 2:
+Flex-direction: Quando adicionamos o row notamos que as palavras ficam posicionadas em linha reta na esquerda (escrito da esquerda para direita), 
+o row-reverse deixa posicionado em linha reta no canto direito (escrito da direita para esquerda),
+o column deixa em forma de coluna escrito de cima para baixo (mesma coisa que o row so q em forma de coluna), 
+o column-reverse também deixa em forma de coluna mas escritas de baixo para cima (mesma coisa que o row-reverse so q em forma de coluna).
+
+Exercicío 3:
+Justify-content: Quando adicionamos o flex-start os itens se alinham na ponta inicial do container,
+o flex-end alinha os itens na ponta final do container,
+o center alinha os itens no centro do container, 
+o space-between alinha os itens de uma forma que eles ocupem todo o container utilizando a mesma quantidade de espaço com o 1° item grudado na borda inicial e o ultimo item grudado na borda final
+o space-around alinha os itens de uma forma que eles tenham a mesma distância entre eles e tenha metade da distância da borda inicial para o 1° item e da borda final para o ultimo item
+o space-evelyn faz com que os itens tenham a mesma distância da borda e entre eles
+
+Exercicío 4:
+Align-items: o flex-end deixou os itens no canto inferior esquerdo do container
+o center deixou os itens no centro vertical do container
+o flex-start deixou os itens no canto superior esquerdo do container
+o stretch alinhou os itens de forma q eles ficassem da altura igual a do container 
+o baseline alinhou os itens de acordo com a sua base
+
+Exercicío 5:
+Flex-wrap: o wrap fez os itens se distribuirem em múltiplas linhas
+align-content: space-between distribuiu os itens de modo que a primeira linha grudou na parte de cima do container e a última linha grudou na parte de baixo do container
+center centralizou as linhas no meio do container
+justify-content: center centraliza os itens na linha
+space-between distribui os itens na linha de modo que o primeiro item ficou junto da borda inicial da linha e o último jumtou na borda final da linha
+
+Exercicío 6:
+Flex-wrap: o wrap fez os itens se distribuirem em múltiplas linhas
+gap espaçou os itens uns dos outros criando uma lacuna entre eles, substituindo as margens manuais
+
+Exercicío 7: 
+Flex-grow: faz os itens crescerem de acordo com o nescessário (quando seu valor numérico é 1 eles serão distribuidos igualmente pelo espaço do container, quando seu valor numérico for 2 ele ocupara o dobro do espaço dos outros itens)
+
+Exercicío 8:
+Flex-basis: definiu um tamanho para cada elemento antes do espaço do container ser distribuido
+flex-shrink: Definiu o quanto cada item diminui (sendo 2 o que mais diminui e 0 o que não diminui)
+
+Exercicío 9:
+align-self: flex-end fez o item ir para o final do container
+flex-start faz o item ir para o inicio do container
+center faz o item se posicionar no centro do container
+Order: determina a ordem que os itens aparecerão
